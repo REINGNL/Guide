@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    
+  
+    
+}
+div#all{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+h1 {
+    font-family: "Lato", Arial, sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+    color: white;
+    margin: 0px 70px 50px 150px;
+    font-size: 45px;
+    padding-bottom: 100%;
+}
+
+h1 span.italic {
+    font-style: italic;
+}
+
+div#t1,
+div#t2,
+div#t3 {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 2px solid white;
+    text-align: left;
+    /* position: absolute; */
+   
+    bottom: 220px;
+    width: 215px;
+    text-align: center;
+    
+}
+
+
+div#t1 {
+    left: 480px;
+   
+}
+
+div#t2 {
+    left: 780px;
+}
+
+div#t3 {
+    left: 1080px;
+}
+
+div#t1 h2,
+div#t2 h3,
+div#t3 h4 {
+    font-family: "Lato", Arial, sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 22px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 35px;
+   
+}
+
+div#t1 p,
+div#t2 p,
+div#t3 p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 17px;
+    width: 215px;
+    text-align: left;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  
+}
+
+div#t1 img,
+div#t2 img,
+div#t3 img {
+    width: 215px;
+    height: 130px;
+     
+}
+
