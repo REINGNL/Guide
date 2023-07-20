@@ -1,0 +1,133 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(19, 3, 36);
+}
+body {
+  zoom: 100%;
+
+}
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      padding: 20px;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+    }
+    li {
+      margin: 0 10px;
+    }
+    a img {
+      width: 60px;
+      height: auto;
+    }
+
+    .neon {
+        font-size: 50px;
+        color: #fff;
+        text-shadow: 0 0 5px #fff;
+        animation: neon-animation 1.5s ease-in-out infinite alternate;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      @keyframes neon-animation {
+        from {
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 60px #ff00de;
+        }
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 60px #ff00de;
+        }
+      }
+      
+
+    
+    
+    
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        width: 100%;
+        max-width: 1200px; /* or any value you prefer */
+        margin: auto;
+        margin-right: 500px;
+    }
+      .avatar-box {
+        width: 300px; 
+        height: 370px; 
+        border: 2px solid #000;
+        overflow: hidden;
+        float: left;
+
+        margin-left: 500px; 
+      }
+      
+      .avatar-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .text-box{
+        color: white;
+        margin-left: 200px;
+        font-size: 25px ;
+        text-align: center;
+      }
+
+      .container button{
+          background-color: yellow;
+          margin-top: 30px; 
+         font-size: 25px;
+     }
+     
+     .grid-container { 
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr); 
+      grid-gap: 20px; 
+    } 
+     .grid-item { 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      text-align: center; 
+    } 
+     .progress-bar { 
+       width: 50%; 
+       height: 20px; 
+       background-color: #f0f0f0; 
+       border-radius: 0; 
+       margin-top: 10px; 
+      position: relative; /* Add this line */ 
+    } 
+     .progress { 
+      height: 100%; 
+      background-color: black; 
+      border-radius: 0; 
+       
+    } 
+    .progress-text { 
+     position: absolute; 
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%); 
+     color: #fff; 
+     font-weight: bold; 
+     width: 100%; 
+     text-align: center; 
+   } 
+
+   .container2{ 
+     padding-top: 70px; 
+   } 
