@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Homepage</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+               <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                <li><a class="dropdown-item" href="#">Our Ceo</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/as2x.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h1>This Is Our Main Game</h1>
+          <p>Assasin Creed</p>
+          <img src="./img/logo.png" class="icon" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Play now!">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/creed.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <p>Next Chapter</p>
+          <img src="./img/logo.png" class="icon-tooltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip Text">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="./img/FICT.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">fict</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-primary">fict</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./img/FICT.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">fict</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-primary">fict</a>
+          </div>
+        </div>
+      </div>  
+      <div class="col">
+        <div class="card">
+          <img src="./img/FICT.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">fict</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-primary">fict</a>
+          </div>
+        </div>
+      </div>  
+      <div class="col">
+        <div class="card">
+          <img src="./img/FICT.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">fict</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-primary">fict</a>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <img src="./img/logo.png" alt="Logo" width="180" class="mb-2">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <p>
+            <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> yanlam5109horse11@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> +60 1164200195
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <a href="https://facebook.com/..." class="me-4 text-reset">
+              <img src="./img/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/..." class="me-4 text-reset">
+              <img src="./img/instagram-icon.png" alt="instagram">
+            </a> 
+          </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    document.addEventListener("DOMContentLoaded", function() {
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+      // Initialize Font Awesome 
+      var fontAwesome = document.querySelectorAll(".fab");
+      fontAwesome.forEach(function(icon) {
+        icon.classList.add("fa-4x");
+      });
+    }); 
+  </script>
+</body>
+</html>
